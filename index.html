@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>小狗大学 · 让人类持续进化</title>
+        <style>
+            #header {text-align: center;}
+            #header-pic {width: 25%;}
+            .nav-item.active {width: 150px}
+            .card-outframe {width: 33%;float:left;}
+            .card {width: 85%;margin: 0 auto;}
+            .card-a {all: unset; cursor:pointer;}
+            .card-body {text-align: center;}
+            .card-a:link {
+                color: black; text-decoration: none
+            }
+            .card-a:visited {
+                color: black; text-decoration: none
+            }
+            .card-a:active {
+                color: black; text-decoration: none
+            }
+            .card-a:hover {
+                color: black; text-decoration: none
+            }
+        </style>
+        <!-- <link rel="stylesheet" type="text/css" href="css/footer-navbar.css" >   -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+    </head>
+    <body>
+        <div id = "header">
+            <img id = "header-pic" src="pics/doge_u.png" alt="小狗大学" referrerpolicy="no-referrer">
+            <h2>小狗大学 · 让人类永远进化</h2>
+        </div>
+        <div id = "nav">
+            <nav class="navbar navbar-expand-md navbar-light bg-light" id = "nav">
+                    <!-- <a class="navbar-brand" href="#" style="color: #FFBE33">AhaSmarter</a> -->
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">进化课程</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="mind_map_of_learning_programming/index_programming.html">进化路线</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://bitcoin.doge.university/book/index.html">图书馆馆</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">少儿编程</a>
+                            </li>
+                            <li class="nav-item active" >
+                                <a class="nav-link" href="#">社交广场</a>
+                            </li>
+                            <li class="nav-item active" >
+                                <a class="nav-link" href="#">小狗实验室</a>
+                            </li>
+                            <li class="nav-item active" >
+                                <a class="nav-link" href="#">狗基百科</a>
+                            </li>
+                            <li class="nav-item active" >
+                                <a class="nav-link" href="#">组织简介</a>
+                            </li>
+                        </ul>
+                        <!-- <form class="form-inline mt-2 mt-md-0" style="margin: 0 auto;">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form> -->
+                        <div>
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" v-on:click="jump_login()">登入</button>
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" v-on:click="jump_login()">注册</button>
+                        </div>
+                        
+                    </div>
+                </nav>
+        </div>
+        <div id = "main">
+            <div class = "card-outframe">
+                <a href ="https://bitcoin.doge.university" class = "card-a">
+                <div style="height: 50px"></div>
+                
+                <div class="card">
+                    <img src="pics/bitcoin_course.svg" class="card-img-top" alt="...">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">基于 JupyterLab 的比特币极速入门指南</h5>
+                        <p class="card-text">绝佳的区块链世界入口</p>
+                        <br>
+                        <button type="button" class="btn btn-success">开始学习！</button>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <div class = "card-outframe">
+                <a href ="temp.html" class = "card-a">
+                <div style="height: 50px"></div>
+                <div class="card">
+                    <img src="pics/front_end.svg" class="card-img-top" alt="...">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">前端开发实用入门</h5>
+                        <p class="card-text">通过「快速正反馈」入门编程</p>
+                        <br>
+                        <button type="button" class="btn btn-success">开始学习！</button>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+        <div id = "footer">
+
+        </div>
+    </body>
+</html>
